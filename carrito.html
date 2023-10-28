@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Carrito de Compras</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+</head>
+<body>
+    <!-- Contenido de la página del carrito -->
+    <div class="container">
+        <h1>Carrito de Compras</h1>
+
+        <!-- Tabla de carrito de compras -->
+        <table class="table mt-4">
+            <thead>
+                <tr>
+                    <th>Comic</th>
+                    <th>Precio</th>
+                    <th>Acciones</th>
+                </tr>
+            </thead>
+            <tbody id="cartItems">
+                <!-- Contenido del carrito se agregará aquí dinámicamente con JavaScript -->
+            </tbody>
+        </table>
+
+        <button class="btn btn-primary" onclick="comprar()">Comprar</button>
+    </div>
+
+    <!-- Botón de volver a la página principal -->
+        <a href="pagev2.html" class="btn btn-secondary mt-4 float-right">Volver</a>
+    </div>
+
+    <!-- Bootstrap JS y Popper.js -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+   <!-- Tu archivo de scripts personalizado -->
+    <script src="carrito.js"></script>
+</body>
+</html>
